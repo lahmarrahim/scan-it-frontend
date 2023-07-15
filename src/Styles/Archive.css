@@ -1,0 +1,129 @@
+.dashboard-container {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.dashboard-page-first-col {
+    background-color: white;
+    padding: 10px 30px;
+    width: 46vh;
+    height: auto;
+}
+
+.dashboard-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+#dashboard-title {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-weight: 700;
+    display: inline;
+    font-size: inherit;
+}
+
+#dashboard-icon {
+    margin-left: 30px;
+    font-size: inherit;
+}
+
+.dashboard-links {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 19px;
+    margin: 25px 10px 0 20px;
+}
+
+.dashboard-links a {
+    font-family: 'TT Norms Pro', sans-serif;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+  
+.dashboard-links a:hover {
+    opacity: 1;
+}
+
+#button-to-start-scan {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 280px;
+    margin-left: 18px;
+    margin-bottom: 50px;
+    padding: 15px 25px;
+    background-color: #f44336;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    border-width: 0px;
+    transition-duration: 0.4s;
+}
+
+#button-to-start-scan:hover {
+    background-color: #00bf63;
+    color: white;
+}
+
+.dashboard-page-second-col {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-bottom: 40px;
+}
+
+#archive-title {
+    margin-top: 20px;
+    margin-left: 455px;
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+}
+
+
+.dashboard-statistics {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.dashboard-stat {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-weight: 700;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    padding: 28px 40px;
+    margin: 0 50px;
+    height: 140px;
+    width: 220px;
+}
+
+.normal-class {
+    background-color: #00bf63 ;
+}
+
+.attack-class {
+    background-color: #f44336
+}
+
+.stat-number {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.table-head {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.table-cell {
+    font-family: "Poppins", sans-serif;
+    padding: 10px 0;
+}

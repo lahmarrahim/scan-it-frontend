@@ -1,0 +1,108 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+  
+html {
+    box-sizing: border-box;
+}
+
+.title-container {
+    font-feature-settings: "smcp", "zero";
+    font-weight: bold;
+}
+
+h2 {
+    font-feature-settings: "tnum";
+    font-weight: bold;
+}
+
+p {
+    font-family: system-ui;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    padding-bottom: 36px;
+    size: 10%;
+}
+  
+.about-section {
+    padding: 25px;
+    text-align: center;
+    /* background-color: #474e5d; */
+    /* background-color: rgb(210, 24, 0); */
+    color: white;
+}
+  
+
+.container {
+    padding: 16px;
+    position: relative;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: grey;
+    font-size: larger;
+}
+
+#email {
+    font-weight: 500;
+    color: black;
+}
+
+#contact {
+    position: absolute;
+    top: 100%;
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+
+#button-to-contact {
+    background-color: #f44336;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 155px;
+    text-align: center;
+    border-width: 0px;
+    font-weight: 550;
+    transition-duration: 0.4s;
+    margin-bottom: 0px;
+}
+
+#button-to-contact:hover {
+    background-color: white;
+    color: black;
+    border-width: 3px;
+    border-color: #f44336;
+}
+
+.row {
+    margin: 20px;
+}
+  
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}

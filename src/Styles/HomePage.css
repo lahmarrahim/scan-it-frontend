@@ -1,0 +1,60 @@
+.home-container {
+    /* background-color: #f1f1f1; */
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.home-page-first-col {
+    margin-left: 70px;
+}
+
+#welcome-title {
+    font-family:  'Poppins', sans-serif;
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#second-welcome-title {
+    font-family:  'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#home-page-desc {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 20px;
+    /* font-weight: 500; */
+}
+
+#button-to-start {
+    font-family: 'TT Norms Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    background-color: #f44336;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-width: 0px;
+    transition-duration: 0.4s;
+}
+
+#button-to-start:hover {
+    background-color: #00bf63;
+    color: white;
+}
+
+.home-page-second-col {
+    margin-left: 27px;
+}
+
+#archi-home-page {
+    /* display: flex;
+    justify-content: flex-end; */
+    /* width: 604px; */
+    /* width: 450px; */
+    padding-left: 30px;
+}

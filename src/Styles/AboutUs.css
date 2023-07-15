@@ -1,0 +1,95 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.our-team-title {
+    margin: 30px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 8px;
+    text-align: center;
+    margin: 0px 30px 100px 30px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.column-team {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.team-title {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+.card-team {
+    box-shadow: 0 0 30px rgba(58, 0, 0, 0.1);
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: #100000;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.card-team .img-container {
+    width: 125px;
+    height: 125px;
+    /* background-color: #ff9393; */
+    /* padding: 8px; */
+    background-color: #f44336;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 0 auto 30px auto;
+}
+
+.card-team img {
+    width: 100%;
+    border-radius: 50%;
+}
+  
+.card-team h3 {
+    font-weight: 500;
+}
+  
+.card-team p {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 8px 0 32px 0;
+    letter-spacing: 2px;
+}
+  
+.icons {
+    width: 50%;
+    min-width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.icons a {
+    padding: 15px;
+}
+  
+.card-team a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+
+.card-team:hover {
+    background: linear-gradient(#f44336, rgb(247, 103, 103));
+    color: #ffffff;
+}
+
+.card-team:hover .img-container {
+    transform: scale(1.15);
+}

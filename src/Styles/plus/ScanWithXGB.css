@@ -1,0 +1,88 @@
+.xgb-container {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#logo-ml {
+    padding-top: 40px;
+    height: 160px;
+}
+
+#ml-desc {
+    color : white;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+#select-text {
+    color : white;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#select-container {
+    display: inline-block;
+}
+
+.file-input::-webkit-file-upload-button {
+    overflow:hidden;
+}
+
+.file-input {
+    content: 'Select a file';
+    border-radius: 4px;
+    padding: 9px 12px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+
+#button-to-scan {
+    /* margin-bottom: 200px; */
+    background-color: #f44336;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    border-width: 0px;
+    transition-duration: 0.4s;
+    margin-left: 10px;
+}
+
+#button-to-scan:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#scan-with-another-one {
+    color : white;
+    font-size: 30px;
+    margin-top: 140px;
+}
+
+.others-ml {
+    margin-top: 10px;
+    padding-bottom: 150px;
+}
+
+.another-ml {
+    background-color: #f44336;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border-width: 0px;
+    transition-duration: 0.4s;
+    margin-left: 25px;
+}
+
+.another-ml:hover {
+    background-color: yellow;
+    color: black;
+}

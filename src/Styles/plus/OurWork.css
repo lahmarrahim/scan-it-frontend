@@ -1,0 +1,33 @@
+.work-container {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#logo {
+    height: 150px;
+    padding-top: 40px;
+}
+
+#first-desc {
+    color : white;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.tools {
+    color : white;
+    /* padding-top: 5px; */
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* .datasets {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 black;
+    width: 50%;
+
+} */

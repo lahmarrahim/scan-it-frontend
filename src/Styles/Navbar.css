@@ -1,0 +1,18 @@
+.navbar {
+    background-color: white;
+    height: 60px;
+}
+
+.navbar-logo {
+    width: 50px;
+    margin-left: 40px;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+}
